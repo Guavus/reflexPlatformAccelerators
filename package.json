@@ -1,0 +1,32 @@
+{
+  "name": "srx-documenttion",
+  "version": "5.3.0",
+  "description": "Documentation for SRX",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "postinstall": "gitbook install",
+    "prebuild": "book sm",
+    "build": "gitbook build",
+    "serve": "gitbook serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guavus/srx-documentation.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Guavus/srx-documentation/issues"
+  },
+  "private": true,
+  "homepage": "https://github.com/Guavus/srx-documentation#readme",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  },
+  "dependencies": {
+    "gitbook-summary": "^1.2.2"
+  }
+}
